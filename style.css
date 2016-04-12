@@ -1,3 +1,12 @@
+/*BODY INFO*/
+body {
+    background-color: #FFFFF0;
+}
+
+h1 {
+    color: #115883;
+}
+
 /*FOOTER INFO*/ 
     footer {
 	  background-color: #fffff0;
@@ -29,3 +38,4 @@ li a {
 li a:hover {
     background-color: #a7a7a7;
 }
+
