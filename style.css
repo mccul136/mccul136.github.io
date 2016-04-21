@@ -57,6 +57,124 @@ ul#menu li a:hover {
     background-color: #a7a7a7;
 }
 
+/*PICTURE INFO FOR PORTFOLIO*/
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+*, *:before, *:after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+body{
+  background: #f9f9f9;
+  font-family: 'Roboto', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+h2.title{
+  color: #6cc551;
+  text-align: center;
+  margin: 20px 0;
+}
+
+div.container{
+  width: 1040px;
+  margin: auto;
+}
+
+div.images {
+  margin: 5px;
+  border: 1px solid #ddd;
+  float: left;
+  width: 250px;
+  -moz-box-shadow: 2px 2px 3px 0px #aaa;
+  -webkit-box-shadow: 2px 2px 3px 0px #aaa;
+  -o-box-shadow: 2px 2px 3px 0px #aaa;
+  box-shadow: 2px 2px 3px 0px #aaa;
+  filter:progid:DXImageTransform.Microsoft.Shadow(color=#aaa, Direction=134, Strength=3);
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+
+div.images:hover{
+-moz-box-shadow: 2px 2px 3px 0px #999;
+-webkit-box-shadow: 2px 2px 3px 0px #999;
+-o-box-shadow: 2px 2px 3px 0px #999;
+box-shadow: 2px 2px 3px 0px #999;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=#999, Direction=134, Strength=3);
+}
+
+div.images:hover .description{
+  color: #2d2d2d;
+}
+
+div.images img {
+  width: 100%;
+  height: auto;
+  padding: 5px;
+}
+
+p.description {
+  color: #777;
+  padding: 15px;
+  text-align: center;
+}
+
+div.clear{
+  clear: both;
+}
+
+p.information{
+  color: #888;
+  text-align: center;
+  margin: 20px 0;
+}
+
+@media screen and (max-width: 1045px){
+  div.container{
+    width: 780px;
+  }
+}
+
+@media screen and (max-width: 785px){
+  div.container{
+    width: 560px;
+  }
+  
+  div.images{
+    margin: 15px;
+  }
+}
+
+@media screen and (max-width: 575px){
+  div.container{
+    width: 350px;
+  }
+  
+  div.images{
+    margin: 10px 5px;
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 405px){
+  div.container{
+    width: 280px;
+  }
+  
+  div.images{
+    width: 280px;
+  }
+}
+
 
 /*FOOTER INFO*/ 
     footer {
